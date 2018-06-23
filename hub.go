@@ -88,7 +88,7 @@ func NewHub() *Hub {
 		WriteBufferSize: 1024,
 		CheckOrigin: func(r *http.Request) bool {
 			// log.Printf("%s header: %s", r.RemoteAddr, r.Header)
-			// if r.Header["Origin"][0] == "ws://67.82.32.72:8081"{
+			// if r.Header["Origin"][0] == ""{
 			// 	log.Printf("%s upgraded successfully.", r.RemoteAddr)
 			// 	return true
 			// }
